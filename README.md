@@ -17,6 +17,7 @@ Work through all these exercises. You edit this file with your answers for these
 
 ### Exercise 2.2
 * What value is returned if you check the machine’s balance after it has printed a ticket?
+Zero! There was no value returned because it was "void"
 
 ### Exercise 2.3
 * Experiment with inserting different amounts of money before printing tickets.
@@ -31,6 +32,7 @@ Work through all these exercises. You edit this file with your answers for these
 * Create another ticket machine for tickets of a different price.
 	* Buy a ticket from that machine.
 	* Does the printed ticket look different?
+	Yes
 
 ### Exercise 2.6
 * Write out what you think the outer wrappers of the `Student` and `LabClass` classes might look like – do not worry about the inner part.
@@ -41,6 +43,7 @@ Does it matter whether we write<br>
 or<br>
 `class public TicketMachine`<br>
 in the outer wrapper of a class?
+Yes it does! Class never comes before public
 
 * Edit the source of the `TicketMachine` class to make the change and then close the editor window.
 	* Do you notice a change in the class diagram?
@@ -69,6 +72,9 @@ private Server host;
 
 ### Exercise 2.12
 * What are the names of the following fields?
+alive
+tutor
+game
 
 ```java
 private boolean alive;
@@ -97,18 +103,22 @@ possible?
 
 ### Exercise 2.15
 * Write in full the declaration for a field of type `int` whose name is `status`.
+private int status
 
 ### Exercise 2.16
 * To what class does the following constructor belong?
 ```
 public Student(String name)
 ```
+Student
 
 ### Exercise 2.17
 * How many parameters does the following constructor have and what are their types?
 ```
 public Book(String title, double price)
 ```
+
+Two parameters!
 
 ### Exercise 2.18
 * Can you guess what types some of the `Book` class’s fields might be?
